@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.row{
+    margin-bottom: 50px;
+}
+.card{
+    border: none !important;
+}
+.top .card{
+    margin-top: 20px;
+    width: 60%;
+    border-radius: 100px;
+    background-color: #167EF4 ;
+    color: white;
+}
+.content{
+    width: 60%;
+}
+.top .card-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.button button{
+    padding: 5px 25px;
+    border: none;
+    border-radius: 20px;
+
+}
+.sec .profile .card-body{
+   text-align: center;
+}
+.sec a{
+    border-radius: 20px;
+}
+.sec .card img{
+    width: 70px;
+}
+.sec h5{
+    color: #167EF4;
+
+}
+h2{
+    color: #167EF4;
+}
